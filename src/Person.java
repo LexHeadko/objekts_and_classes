@@ -22,7 +22,7 @@ public class Person {
         return age;
     }
 
-    public void setAge(int age) {
+    public void editAge(int age) {
         if (age<0) {
             throw new IllegalArgumentException("Указаный возраст меньше 0");
         }

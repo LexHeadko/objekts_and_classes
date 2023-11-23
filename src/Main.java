@@ -15,7 +15,7 @@ public class Main {
             System.out.println("Иди в бар");
         }
         printSeparator();
-        person.setAge(20);
+        person.editAge(5);
         person.increaseAge(1);
         System.out.println(person);
     }
